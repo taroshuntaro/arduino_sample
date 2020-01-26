@@ -4,7 +4,7 @@
 #define LED_TYPE WS2812B
 #define COLOR_ORDER GRB
 #define NUM_LEDS 130
-#define BRIGHTNESS 60
+#define BRIGHTNESS 20
 
 CRGB leds[NUM_LEDS];
 
@@ -33,5 +33,7 @@ void showProgramSamplePixel_2(CRGB crgb, long delayTime) {
 }
 
 void loop() {
-  showProgramSamplePixel_2(CRGB::Blue, 3);
+  //showProgramSamplePixel_2(CRGB::Red, 3);
+  //showProgramSamplePixel_2(CRGB::Blue, 3);
+  showProgramSamplePixel_2(CRGB::Green, 3);
 }
