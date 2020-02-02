@@ -11,5 +11,5 @@ void loop(){
     value = digitalRead( DIN_PIN );
     Serial.println( value );
 
-    delay( 500 );
+    delay( 100 );
 }
